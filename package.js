@@ -1,14 +1,10 @@
 /* global Package, Npm */
 
 Package.describe({
-  name: 'ecarlotti:tabular',
+  name: 'juto:tabular',
   summary: 'Datatables for large or small datasets in Meteor',
-  version: '2.1.2',
+  version: '2.1.3',
   git: 'https://github.com/ecarlotti/meteor-tabular.git'
-});
-
-Npm.depends({
-  'datatables.net': '1.10.19'
 });
 
 Package.onUse(function(api) {
